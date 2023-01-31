@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5501/resume.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Document_files/resume.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <div class="profile-cont">
+                <div class="profile-img">
+                    <img src="./Document_files/three.jpg" alt="Hind">
+                </div>
+                <div>
+                    <h1 class="profile-name">
+                        <span class="firstname">Ummkhalad</span>
+                        <span class="othername">Hind</span>
+                        <span class="lastname">Abdulrasheed</span>
+                    </h1>
+                    <p class="profile-title">Software Developer</p>
+                    <p class="description"></p>
+                    <a class="downloadbtn" href="http://127.0.0.1:5501/cv.pdf" download="cv.pdf">Download</a>
+                </div>
+            </div>
+        </div>
+        <div class="group1">
+            <div class="skills">
+                <h3 class="title">Expertise</h3>
+                <ul class="skill-list description">
+                    <li>Html</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="edu">
+                <h3 class="title">Education</h3>
+                <div class="edu-item">
+                    <p class="item1">2020-2022</p>
+                    <h4 class="item-title">MSC in CyberSecurity</h4>
+                    <p class="sub-title">Stanford University</p>
+                </div>
+                <div class="edu-item">
+                    <p class="item1">2020-2022</p>
+                    <h4 class="item-title">MSC in CyberSecurity</h4>
+                    <p class="sub-title">Stanford University</p>
+                </div>
+            </div>
+            <div class="certification">
+                <h3 class="title">Certification</h3>
+                <div class="cert-item">
+                    <p class="item1">2022</p>
+                    <h4 class="item-title"> Introduction to CyberSecurity</h4>
+                     <p class="description"> 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum commodi, laudantium totam
+                        , quia unde veritatis in incidunt aliquid sequi dignissimos nobis.
+                         In repudiandae, error praesentium minima accusamus nemo accusantium?</p>
+                </div>
+            </div>
+        </div>
+        <div class="group2">
+            <div class="exp">
+                <h3 class="title">Experience</h3>
+                <div class="exp-item">
+                    <p class="item1">2021- present</p>
+                    <h4 class="item-title">OMAAH Ltd</h4>
+                    <p class="sub-title">Frontend Developer</p>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum commodi, laudantium totam
+                        , quia unde veritatis in incidunt aliquid sequi dignissimos nobis.
+                        In repudiandae, error praesentium minima accusamus nemo accusantium?</p>
+                    
+                </div>
+                <div class="exp-item">
+                    <p class="item1">2021- present</p>
+                    <h4 class="item-title">OMAAH Ltd</h4>
+                    <p class="sub-title">Frontend Developer</p>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum commodi, laudantium totam
+                        , quia unde veritatis in incidunt aliquid sequi dignissimos nobis.
+                        In repudiandae, error praesentium minima accusamus nemo accusantium?</p>
+                
+                </div>
+            </div>
+            <div class="interest">
+                <h3 class="title">Interest</h3>
+                <div class="interest-items">
+                    <div class="item">
+                        <i class="fa fa-music"></i>
+                        <span>Music</span>
+                    </div>
+                    <div class="item">
+                        <i class="fa fa-book"></i>
+                        <span>Books</span>
+                    </div>
+                    <div class="item">
+                        <i class="fa fa-map"></i>
+                        <span>Travel</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="group3">
+            <div class="contact">
+                <h3 class="title">Contact</h3>
+                <div class="contact-info">
+                    <p class="description">
+                        Lagos, Nigeria.
+                    </p>
+                    <p class="description">09161428126</p>
+                    <p class="description">Ummkhaladoluwatosin@gmail.com</p>
+                </div>
+            </div>
+            <div class="social">
+                <h3 class="title">Socials</h3>
+                <div class="social-items">
+                    <a href="http://127.0.0.1:5501/resume.html#" class="social-item">
+                        <i class="fa fa-github"></i>
+                        <span>/omaah2</span>
+                    </a>
+                    <a href="http://127.0.0.1:5501/resume.html#" class="social-item">
+                        <i class="fa fa-linkedin"></i>
+                        <span>Ummkhalad Oluwatosin</span>
+                    </a>
+                    <a href="http://127.0.0.1:5501/resume.html#" class="social-item">
+                        <i class="fa fa-twitter"></i>
+                        <span>_just_omaah</span>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
