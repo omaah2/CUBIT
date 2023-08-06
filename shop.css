@@ -444,12 +444,12 @@ footer a{
     color: #222;
     margin-bottom: 10px;
 }
-footer .follow i{
+footer .fol i{
     color: #465b52;
     padding-right: 4px;
     cursor: pointer;
 }
-footer .follow i:hover,
+footer .fol i:hover,
 footer a:hover{
     color:#199e29;
 

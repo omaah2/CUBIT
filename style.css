@@ -80,7 +80,6 @@ body{
     color:#0e4447;
 }
 
-
 #navbar{
     display: flex;
     justify-content: center;
@@ -208,7 +207,10 @@ body{
     font-weight: 700;
     color: #0e4447;
 }
-#product1 .pro .c{
+.fa-shopping-basket{
+    font-size: 25px;
+}
+#product1 .pro a{
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -447,12 +449,12 @@ footer a{
     color: #222;
     margin-bottom: 10px;
 }
-footer .follow i{
+footer .fol i{
     color: #465b52;
     padding-right: 4px;
     cursor: pointer;
 }
-footer .follow i:hover,
+footer .fol i:hover,
 footer a:hover{
     color:#199e29;
 
