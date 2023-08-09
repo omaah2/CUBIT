@@ -1,11 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'spartan', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "spartan", sans-serif;
 }
-body{
-    background-image: url(/images/pexels-borko-manigoda-1778412\ \(1\).jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+body {
+  background-image: url(./images/pexels-borko-manigoda-1778412\\(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }

@@ -1,340 +1,325 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-body{
-    background-image: url(/images/pexels-tembela-bohle-1884583.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-
+body {
+  background-image: url(./images/pexels-tembela-bohle-1884583.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.header{
-    width: 80%;
-    height: 10px;
-    background-color: transparent;
-    padding: 50px;
+.header {
+  width: 80%;
+  height: 10px;
+  background-color: transparent;
+  padding: 50px;
 }
-.bi-arrow-left-short{
-    font-size: 17px;
+.bi-arrow-left-short {
+  font-size: 17px;
 }
-h4 > a{
-    font-size: 15px;
-    background-color: black;
-    color: white;
-    padding: 20px 10px;
-    border-radius: 20px;
-    text-decoration: none;
-    box-shadow: 3px 3px 7px 3px rgba(0, 0, 0, 0.3);
+h4 > a {
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  padding: 20px 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 3px 3px 7px 3px rgba(0, 0, 0, 0.3);
 }
-h5{
-    text-align: center;
-    font-size: 45px;
-    color: black;
-    padding-top: 5vh;
+h5 {
+  text-align: center;
+  font-size: 45px;
+  color: black;
+  padding-top: 5vh;
 }
-.bi-cart3{
-    color: black;
+.bi-cart3 {
+  color: black;
 }
-.two{
-    width: 30%;
-    height: 60vh;
-    margin-top: 10vh;
-    background-color: rgb(251, 251, 251);
-    border-radius: 20px;
-    margin-left: 35%;
-    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0,0.2);
-    box-sizing: border-box;
-    color: white;
-}
-
-input{
-    box-sizing: border-box;
-    width: 93%;
-    height: 60px;
-    padding-left: 15px;
-    border: transparent ;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    outline: none;
-    background-color:transparent;
-    font-size: 18px;
-    color: black;
-    margin-left: 3.5%;
-    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0,0.2);
-}
-.nom{
-    margin-bottom: 10px;
-    margin-top: 30px;
+.two {
+  width: 30%;
+  height: 60vh;
+  margin-top: 10vh;
+  background-color: rgb(251, 251, 251);
+  border-radius: 20px;
+  margin-left: 35%;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  color: white;
 }
 
-button{
-    width: 30%;
-    height: 60px;
-    font-size: 19px;
-    margin-top: 20px;
-    background-color: black;
-    border: black 2px solid;
-    border-radius: 30px;
-    margin-left: 35%;
+input {
+  box-sizing: border-box;
+  width: 93%;
+  height: 60px;
+  padding-left: 15px;
+  border: transparent;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  outline: none;
+  background-color: transparent;
+  font-size: 18px;
+  color: black;
+  margin-left: 3.5%;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
 }
-button > a{
-    color: white;
-    text-decoration: none;
-    font-size: 26px;
+.nom {
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
-.sign{
-    display: flex;
-    text-decoration: none;
-    margin-top: 10px;
-    flex-direction: column;
+
+button {
+  width: 30%;
+  height: 60px;
+  font-size: 19px;
+  margin-top: 20px;
+  background-color: black;
+  border: black 2px solid;
+  border-radius: 30px;
+  margin-left: 35%;
 }
-.pop1{
-    color: black;
-    text-align: center;
-    font-size: 26px;
-    padding-top: 20px;
+button > a {
+  color: white;
+  text-decoration: none;
+  font-size: 26px;
 }
-.pop1 a:hover,.pop2 :hover{
-    color: red;
-    text-decoration: underline;
+.sign {
+  display: flex;
+  text-decoration: none;
+  margin-top: 10px;
+  flex-direction: column;
 }
-.pop1 a{
-    text-decoration: none;
-    font-size: 24px;
-    color: blue;
+.pop1 {
+  color: black;
+  text-align: center;
+  font-size: 26px;
+  padding-top: 20px;
+}
+.pop1 a:hover,
+.pop2 :hover {
+  color: red;
+  text-decoration: underline;
+}
+.pop1 a {
+  text-decoration: none;
+  font-size: 24px;
+  color: blue;
 }
 .pop2 {
-    color: blue;
-    text-align: center;
-    text-decoration: none;
-    font-size: 26px;
-    padding-top: 20px;
+  color: blue;
+  text-align: center;
+  text-decoration: none;
+  font-size: 26px;
+  padding-top: 20px;
 }
-.icon i{
-    color: #465b52;
-    padding-right: 4px;
-    cursor: pointer;
+.icon i {
+  color: #465b52;
+  padding-right: 4px;
+  cursor: pointer;
 }
-@media(max-width: 1000px){
-    .two{
-        width: 40%;
-        margin-top: 5vh;
-        height: 90vh;
-        margin-left: 30%;
-        }
-        body{
-            background-image: url(/images/pexels-tembela-bohle-1884581.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-        
-        }
- }
- @media(max-width: 850px){
-    .two{
-        width: 40%;
-        margin-top: 11%;
-        margin-left: 30%;
-    }
-    body{
-        background-image: url(/images/pexels-tembela-bohle-1884581.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    
-    }
- }
- @media(max-width: 800px){
-    .two{
-        width: 50%;
-        margin-top: 5vh;
-        height: 90vh;
-        margin-left: 25%;
-      }
-      body{
-        background-image: url(/images/pexels-tembela-bohle-1884581.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    
-    }
- }
- @media(max-width: 700px){
-    .two{
-        width: 50%;
-        margin-top: 5vh;
-       height: 90vh;
-        margin-left: 25%;
-    }
-    body{
-        background-image: url(/images/pexels-tembela-bohle-1884581.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    
-    }
- }
- @media(max-width: 650px){
-    .two{
-        width: 60%;
-        margin-top: 5vh;
-        height: 90vh;
-        margin-left: 20%;
-      }
-      body{
-        background-image: url(/images/pexels-tembela-bohle-1884581.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    
-    }
- }
- @media(max-width: 550px){
-    .two{
-        width: 64%;
-        margin-top: 5vh;
-        height: 90vh;
-        margin-left: 18%;
-    }
-    body{
-        background-image: url(/images/pexels-tembela-bohle-1884581.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    
-    }
- }
- @media(max-width: 500px){
-    .two{
-        width: 68%;
-        margin-top: 5vh;
-        height: 90vh;
-        margin-left: 16%;
-       }
-       body{
-        background-image: url(/images/pexels-tembela-bohle-1884581.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    
-    }
-} 
- @media(max-width: 470px){
-    .two{
-        width: 70%;
-        margin-top: 5vh;
-        height: 90vh;
-        margin-left: 15%;
-        }
-        body{
-            background-image: url(/images/pexels-tembela-bohle-1884581.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-        
-        }
-  } 
- @media(max-width: 450px){
-   .two{
-        width: 74%;
-        margin-top: 5vh;
-        height: 90vh;
-        margin-left: 13%;
-      }
-      body{
-        background-image: url(/images/pexels-tembela-bohle-1884581.jpg);
-       background-size: 100%;
-        background-repeat: no-repeat;
-    
-    }
-} 
- @media(max-width: 430px){
-   .two{
-        width: 78%;
-        margin-top: 5vh;
-       height: 90vh;
-        margin-left: 13%;
-       }
-       body{
-        background-image: url(pics/pexels-tembela-bohle-1884581.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;
-    
-    }
-  } 
- @media(max-width: 400px){
-    .two{
-        width: 80%;
-        margin-top: 5vh;
-       height: 90vh;
-        margin-left: 10%;
-   }
-   body{
-    background-image: url(/images/pexels-tembela-bohle-1884581.jpg);
+@media (max-width: 1000px) {
+  .two {
+    width: 40%;
+    margin-top: 5vh;
+    height: 90vh;
+    margin-left: 30%;
+  }
+  body {
+    background-image: url(./images/pexels-tembela-bohle-1884581.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 850px) {
+  .two {
+    width: 40%;
+    margin-top: 11%;
+    margin-left: 30%;
+  }
+  body {
+    background-image: url(./images/pexels-tembela-bohle-1884581.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 800px) {
+  .two {
+    width: 50%;
+    margin-top: 5vh;
+    height: 90vh;
+    margin-left: 25%;
+  }
+  body {
+    background-image: url(./images/pexels-tembela-bohle-1884581.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 700px) {
+  .two {
+    width: 50%;
+    margin-top: 5vh;
+    height: 90vh;
+    margin-left: 25%;
+  }
+  body {
+    background-image: url(./images/pexels-tembela-bohle-1884581.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 650px) {
+  .two {
+    width: 60%;
+    margin-top: 5vh;
+    height: 90vh;
+    margin-left: 20%;
+  }
+  body {
+    background-image: url(./images/pexels-tembela-bohle-1884581.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 550px) {
+  .two {
+    width: 64%;
+    margin-top: 5vh;
+    height: 90vh;
+    margin-left: 18%;
+  }
+  body {
+    background-image: url(./images/pexels-tembela-bohle-1884581.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 500px) {
+  .two {
+    width: 68%;
+    margin-top: 5vh;
+    height: 90vh;
+    margin-left: 16%;
+  }
+  body {
+    background-image: url(./images/pexels-tembela-bohle-1884581.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 470px) {
+  .two {
+    width: 70%;
+    margin-top: 5vh;
+    height: 90vh;
+    margin-left: 15%;
+  }
+  body {
+    background-image: url(./images/pexels-tembela-bohle-1884581.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 450px) {
+  .two {
+    width: 74%;
+    margin-top: 5vh;
+    height: 90vh;
+    margin-left: 13%;
+  }
+  body {
+    background-image: url(./images/pexels-tembela-bohle-1884581.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-
+  }
 }
- } 
- @media(max-width: 388px){
-     .two{
-        width: 84%;
-        margin-top: 5vh;
-        height: 90vh;
-        margin-top: 18%;
-       }
-       body{
-        background-image: url(/images/pexels-tembela-bohle-1884581.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;
-    
-    }
-} 
-@media(max-width: 375px){
-    .two{
-       width: 88%;
-       margin-top: 5vh;
-       height: 90vh;
-       margin-top: 18%;
-      }
-      body{
-        background-image: url(/images/pexels-tembela-bohle-1884581.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;
-    
-    }
-} 
-@media(max-width: 355px){
-    .two{
-       width: 92%;
-       margin-top: 5vh;
-       height: 90vh;
-       margin-top: 18%;
-      }
-      body{
-        background-image: url(/images/pexels-tembela-bohle-1884581.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;
-    
-    }
-} 
-@media(max-width: 340px){
-    .two{
-       width: 94%;
-       margin-top: 5vh;
-       height: 90vh;
-       margin-top: 18%;
-      }
-      body{
-        background-image: url(/images/pexels-tembela-bohle-1884581.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;
-    
-    }
-} 
-@media(max-width: 340px){
-    .two{
-       width: 96%;
-       margin-left: 2%;
-       margin-top: 5vh;
-       height: 90vh;
-      }
-      body{
-        background-image: url(/images/pexels-tembela-bohle-1884581.jpg);
-        background-size: 100vh;
-        background-repeat: no-repeat;
-        height: 100vh;
-    }
-} 
+@media (max-width: 430px) {
+  .two {
+    width: 78%;
+    margin-top: 5vh;
+    height: 90vh;
+    margin-left: 13%;
+  }
+  body {
+    background-image: url(pics/pexels-tembela-bohle-1884581.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 400px) {
+  .two {
+    width: 80%;
+    margin-top: 5vh;
+    height: 90vh;
+    margin-left: 10%;
+  }
+  body {
+    background-image: url(./images/pexels-tembela-bohle-1884581.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 388px) {
+  .two {
+    width: 84%;
+    margin-top: 5vh;
+    height: 90vh;
+    margin-top: 18%;
+  }
+  body {
+    background-image: url(./images/pexels-tembela-bohle-1884581.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 375px) {
+  .two {
+    width: 88%;
+    margin-top: 5vh;
+    height: 90vh;
+    margin-top: 18%;
+  }
+  body {
+    background-image: url(./images/pexels-tembela-bohle-1884581.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 355px) {
+  .two {
+    width: 92%;
+    margin-top: 5vh;
+    height: 90vh;
+    margin-top: 18%;
+  }
+  body {
+    background-image: url(./images/pexels-tembela-bohle-1884581.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 340px) {
+  .two {
+    width: 94%;
+    margin-top: 5vh;
+    height: 90vh;
+    margin-top: 18%;
+  }
+  body {
+    background-image: url(./images/pexels-tembela-bohle-1884581.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 340px) {
+  .two {
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 5vh;
+    height: 90vh;
+  }
+  body {
+    background-image: url(./images/pexels-tembela-bohle-1884581.jpg);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+}
